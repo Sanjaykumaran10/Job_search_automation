@@ -1,0 +1,11 @@
+CREATE TABLE companies (
+    c_id BIGSERIAL PRIMARY KEY,
+    c_name VARCHAR(200) NOT NULL,
+    api_url TEXT NOT NULL,
+    enabled BOOLEAN DEFAULT TRUE,
+    priority INTEGER DEFAULT 1,
+	ats_type VARCHAR(30),
+    last_run TIMESTAMP,
+    last_status VARCHAR(20),
+    last_error TEXT
+);

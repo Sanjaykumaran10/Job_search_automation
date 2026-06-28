@@ -1,0 +1,7 @@
+CREATE TABLE user_skills (
+    skill_id BIGSERIAL PRIMARY KEY,
+    skill_name VARCHAR(200) NOT NULL,
+    weight INTEGER NOT NULL,
+    enabled BOOLEAN DEFAULT TRUE,
+    last_update TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
