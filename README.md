@@ -107,7 +107,7 @@ Fields include:
 * Last Run
 * Last Status
 
-### jobs
+### Jobs
 
 Stores all collected job postings.
 
